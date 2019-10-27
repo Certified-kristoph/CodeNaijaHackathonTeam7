@@ -16,14 +16,25 @@ class _WelcomeState extends State<Welcome> {
         height: MediaQuery.of(context).size.height,
         child: Stack(
           children: <Widget>[
-            Container(
-              height: MediaQuery.of(context).size.height,
-              width: MediaQuery.of(context).size.width,
-              color: Colors.white,
-              child: Image.asset(
-                'images/cards.jpg',
-                fit: BoxFit.cover,
-              ),
+            Column(
+              children: <Widget>[
+                Container(
+                  height: MediaQuery.of(context).size.height,
+                  width: MediaQuery.of(context).size.width,
+                  color: Colors.white,
+                  child: Image.asset(
+                    'images/cards.jpg',
+                    fit: BoxFit.cover,
+                  ),
+                ),
+                
+              ],
+            ),
+            Center(
+              child: Container(
+                    height: 200,
+                    width: 600,
+                    child: Image.asset('images/logo.png')),
             ),
             Container(
               alignment: Alignment.bottomCenter,

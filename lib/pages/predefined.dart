@@ -39,7 +39,7 @@ class _PredefinedState extends State<Predefined> {
                   child: Column(
                     mainAxisSize: MainAxisSize.min,
                     children: <Widget>[
-                      Image.asset('images/celebrate.jpg',fit: BoxFit.contain,),
+                      Image.asset('images/celebrate.jpg',fit: BoxFit.cover,),
                     ],
                   ),
                 ),
@@ -54,7 +54,7 @@ class _PredefinedState extends State<Predefined> {
                   child: Column(
                     mainAxisSize: MainAxisSize.min,
                     children: <Widget>[
-                      Image.asset('images/celebrate.jpg',fit: BoxFit.contain,),
+                      Image.asset('images/celebrate.jpg',fit: BoxFit.contain),
                     ],
                   ),
                 ),

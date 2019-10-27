@@ -44,6 +44,8 @@ flutter:
   assets:
     - images/celebrate.jpg
     - images/cards.jpg
+    - images/cardshare.png
+    - images/logo.png
   # assets:
   #  - images/a_dot_burr.jpeg
   #  - images/a_dot_ham.jpeg

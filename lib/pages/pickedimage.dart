@@ -23,7 +23,7 @@ class PickedImage extends StatelessWidget {
                 onPressed: () => Navigator.of(context).push(new MaterialPageRoute(builder:(context) => Sending() )),
                 child: Container(
                     alignment: Alignment.center,
-                    child: Text('Use this Image',
+                    child: Text('Use this Design',
                         style: TextStyle(
                           fontSize: 20,
                           color: Colors.white,
